@@ -25,10 +25,6 @@
   color: white;
 }
 
-.default {
-  /* background-image: url('../../Assets/images/background-image.jpg'); */
-}
-
 .Rain {
   background-image: url('../../Assets/images/rainy.gif');
 }
