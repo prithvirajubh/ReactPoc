@@ -5,7 +5,6 @@ import './WeatherWindow.css';
 const WeatherWindow = (props) => {
   const { t } = useTranslation();
   const Title = props.city ? null : <h1 className='title'>{t('title')}</h1>;
-  console.log("weather", props)
   return (
     <div className='main'>
       <div className='inner-main'>

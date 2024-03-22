@@ -9,7 +9,7 @@ import LocaleContext from '../../LocaleContext';
 
 const WeatherPage = (props) => {
   const [locale, setLocale] = useState(i18n.language);
-  const [type, setType] = useState('');
+  const [weatherType, setWeatherType] = useState('');
   const [state, setState] = useState({
     city: undefined,
     days: new Array(5)
@@ -31,9 +31,7 @@ const WeatherPage = (props) => {
         weather_type: data.list[dayList[i]].weather[0].main,
       });
     }
-    console.log(days)
-
-    setType(data.list[dayList[0]].weather[0].main)
+    setWeatherType(data.list[dayList[0]].weather[0].main)
     setState({
       city: city,
       days: days
@@ -90,7 +88,7 @@ const WeatherPage = (props) => {
 
   return (
     <div className='weatherApp'>
-      <header className={`weatherApp-header ${type}`}>
+      <header className={`weatherApp-header ${weatherType}`}>
         <LocaleContext.Provider value={{ locale, setLocale }}>
           <Suspense>
             <div className='language-master'>
