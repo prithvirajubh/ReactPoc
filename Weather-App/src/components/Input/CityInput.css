@@ -1,0 +1,15 @@
+.loading {
+  background-color: #ffffff;
+  background-image: url('../../Assets/images/loading.gif');
+  background-size: 25px 25px;
+  background-position: 97% center;
+  background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 760px) {
+  .city-input {
+    width: 80% !important;
+    top: -200px !important;
+  }
+}

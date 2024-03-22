@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  user-select: none;
+}
+
+.weatherApp {
+  text-align: center;
+}
+
+.weatherApp-header {
+  background-image: url('../../Assets/images/background-image.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.default {
+  /* background-image: url('../../Assets/images/background-image.jpg'); */
+}
+
+.Rain {
+  background-image: url('../../Assets/images/rainy.gif');
+}
+
+.Clouds {
+  background-image: url('../../Assets/images/cloudy.gif')
+}
+
+.Clear {
+  background-image: url('../../Assets/images/Clear.gif')
+}
+
+.language-master {
+  position: absolute;
+  top: 15px;
+}
+
+.language-master--label {
+  color: white;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 760px) {}

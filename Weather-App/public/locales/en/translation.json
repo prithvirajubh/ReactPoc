@@ -1,0 +1,16 @@
+{
+	"title": "Weather Forecast",
+	"language": "English",
+	"today": "Today",
+	"temperature": "Temperature",
+	"monday": "Monday",
+	"tuesday": "Tuesday",
+	"wednesday": "Wednesday",
+	"thursday": "Thursday",
+	"friday": "Friday",
+	"saturday": "Saturday",
+	"sunday": "Sunday",
+	"placeHolder": "Enter a City...",
+	"CityNotFound": "City was not found, try again...",
+	"validCityName": "Please enter a valid city name..."
+}

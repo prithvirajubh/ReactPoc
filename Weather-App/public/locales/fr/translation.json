@@ -1,0 +1,16 @@
+{
+	"title": "les prévisions météorologiques",
+	"language": "French",
+	"today": "Aujourd'hui",
+	"temperature": "Température",
+	"monday": "lundi",
+	"tuesday": "mardi",
+	"wednesday": "mercredi",
+	"thursday": "jeudi",
+	"friday": "vendredi",
+	"saturday": "samedi",
+	"sunday": "dimanche",
+	"placeHolder": "Entrez une ville...",
+	"CityNotFound": "La ville n'a pas été trouvée, réessayez...",
+	"validCityName": "Veuillez saisir un nom de ville valide..."
+}
